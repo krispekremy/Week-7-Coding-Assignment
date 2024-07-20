@@ -179,8 +179,6 @@ const isYourNameTooLong = (firstName, lastName) => {
         console.log(`You didn't put anything in for your name!`)
     } else if (firstName.length > 9) {
         console.log(`Your first name, ${firstName}, is pretty long. At least your last name isn't soo bad.`)
-    } else if (lastName.length > 12) {
-        console.log(`Your last name, ${lastName}, is pretty long. But at least its not your first name.`)
     } else if (firstName.length > 9 && lastName.length > 12) {
         console.log(`Both your first name, ${firstName}, and your last name, ${lastName}, are way too long man! How's anybody supposed to remember that!`)
     } else {
