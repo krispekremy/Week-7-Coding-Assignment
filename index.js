@@ -31,7 +31,7 @@ const agesSum = arr => {
 
 //I dunno if this was necessary but I saw an opportunity to make an extra function here that used a for loop to iterate through the array and find the sum, and then below seperately make another function that finds the average. Maybe I thought that'd be more concise? I guess you can tell me!
 
-const agesAverage = (arr) => {
+const agesAverage = arr => {
     let sum = agesSum(arr);
     return sum / arr.length;
 }
@@ -72,9 +72,13 @@ console.log(namesConcat);
 
 //In order to access the last element of any array, you'd use array[array.length - 1]. I described above why that works.
 
+console.log(names[names.length - 1])
+
 //Question 4:
 
 //In order to access the first element of any array, you'd just do array[0]. This always works because javascript only supports 0 based indexing for arrays so the 0 element will always be the first element.
+
+console.log(names[0])
 
 //Question 5:
 
